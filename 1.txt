@@ -1,0 +1,6 @@
+Các bước khi thực hiện 1 task ho?c 1 ch?c nang tr�n reactis
+Bước 1: Dàn layout (chia component)
+Bu?c 2: Xác định dữ liệu nào trên giao diện sẽ thay đổi khi người dùng thao tác. 
+=> �?t n� trong state (number ?, string ?, boolean? object? array?)
+Bu?c 3: Binding state l�n giao di?n noi ch?a dua li?u thay d?i
+Bu?c 4: setState l�m thay d?i gi� tr? state => t? d?ng giao di?n render l?i v?i state m?i
