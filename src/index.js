@@ -4,8 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//cấu hình redux
+import {Provider} from 'react-redux'
+import {store} from './redux/confixStore'
+
 ReactDOM.render(
-  <App/>, //jsx
+  <Provider store={store}>
+  <App/>
+  </Provider>
+  , //jsx
   document.getElementById('root')
 );
 

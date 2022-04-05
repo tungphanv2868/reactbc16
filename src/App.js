@@ -11,6 +11,10 @@ import DemoProps from './Props/DemoProps/DemoProps';
 import ProductList from './Props/ShoesShop/ProductList';
 import DemoXemChiTiet from './Props/DemoXemChiTiet/DemoXemChiTiet';
 import BTVN_Component from './component/BTVN_Tung_ Component/BTVN_Component';
+import BTGioHang from './DemoRedux/BTGioHang/BTGioHang';
+import BTGlasses from './BaiTapGlasses/BTGlasses';
+
+
 
 
 
@@ -33,9 +37,19 @@ function App() {
 
       {/* <ProductList/> */}
 
+      {/* buổi 4 */}
       {/* <DemoXemChiTiet/> */}
       
-      <BTVN_Component/>
+      {/* Buổi 5:redux */}
+      {/* <BTGioHang/> */}
+
+
+
+      {/* BTVN */}
+      {/* 1 */}
+      {/* <BTVN_Component/> */}
+      {/* 2 */}
+      <BTGlasses/>
       
     </div>
   );
