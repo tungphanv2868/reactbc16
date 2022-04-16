@@ -106,7 +106,7 @@ export default class BTGlasses extends Component {
 
                         <div style={{ width: '60%', margin: ' 0 auto' }} className='mt-5'>
 
-                            <div style={{ float: 'left', width: '32%', position: 'relative', marginBottom: '100px' }}>
+                            <div style={{ float: 'left', width: '40%', position: 'relative', marginBottom: '100px' }}>
                                 <img src="./img/glassesImage/model.jpg" style={{ height: '300px', width: '73%' }} ></img>
                                 <div style={{ position: 'absolute', top: '70px', left: '58px' }}>
                                     <img src={url} style={{ width: '150px' }}></img>

@@ -13,6 +13,8 @@ import DemoXemChiTiet from './Props/DemoXemChiTiet/DemoXemChiTiet';
 import BTVN_Component from './component/BTVN_Tung_ Component/BTVN_Component';
 import BTGioHang from './DemoRedux/BTGioHang/BTGioHang';
 import BTGlasses from './BaiTapGlasses/BTGlasses';
+import BaiTapGameXucXac from './DemoRedux/BaiTapGameXucXac/BaiTapGameXucXac';
+import BaiTapBookingTicket from './BaiTapBookingTicket/BaiTapBookingTicket';
 
 
 
@@ -43,13 +45,17 @@ function App() {
       {/* Buổi 5:redux */}
       {/* <BTGioHang/> */}
 
+      {/* <BaiTapGameXucXac/> */}
+
 
 
       {/* BTVN */}
       {/* 1 */}
       {/* <BTVN_Component/> */}
       {/* 2 */}
-      <BTGlasses/>
+      {/* <BTGlasses/> */}
+      {/* 3 */}
+      <BaiTapBookingTicket/>
       
     </div>
   );

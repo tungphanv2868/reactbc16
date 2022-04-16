@@ -1,0 +1,14 @@
+/*
+    Code css tách file thì các link đi theo đường dẫn tương đối từ file 
+    (không đi theo public như trong html)
+*/
+@font-face {
+    font-family: fontGame;
+    src: url(../../assets/fonts/Pony.ttf);
+}
+.game-xuc-xac {
+    background-image: url(../../img/gameXucXac/bgGame.png);
+    width: 100vw;
+    height: 100vh;
+    font-family: fontGame;
+}
